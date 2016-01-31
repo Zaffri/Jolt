@@ -9,10 +9,14 @@ http://jolt.zaffri.com
 http://zaffri.com
 
 Notable Features:
-1.  Responsive cells
-2.  Full-page classes
-3.  Horizontal & Vertical alignment
-4.  Topbar component
-  4.1   Dyanmic scroll styles
-  4.2   Responsive navigation with mobile 'burger' toggle
-  4.3   JavaScript fallback for mobile toggle
+<ul>
+  <li>1.  Responsive cells</li>
+  <li>2.  Full-page classes</li>
+  <li>3.  Horizontal & Vertical alignment</li>
+  <li>4.  Topbar component</li>
+    <ul>
+      <li>4.1   Dyanmic scroll styles</li>
+      <li>4.2   Responsive navigation with mobile 'burger' toggle</li>
+      <li>4.3   JavaScript fallback for mobile toggle</li>
+    </ul>
+</ul>
