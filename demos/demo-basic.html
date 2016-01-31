@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jolt Example</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="css/global.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/topbar.min.css" />
+	
+	<!-- Custom styles - embedded and inline styles only for demo purposes -->
+	<style type="text/css">
+	
+		#top-cell {
+			background: #bbb;
+		}
+	
+		.cell {
+			height: 300px;
+			background: #ddd;
+			padding: 10px;
+		}
+		
+		.cell:nth-child(2n) {
+			background: #ccc;
+		}
+		
+		#main-nav a {
+			color: #0f1427;
+		}
+		
+		#main-nav a:hover {
+			background: #3086d7;
+			color: #fff;
+		}
+		
+		@media screen and (max-width: 950px) {
+		
+			#topbar #main-nav ul {
+				background: #181818;
+			}
+			#main-nav a {
+				color: #bbcff0;
+			}
+			#main-nav li a:hover {
+				background: #3086d7;
+				color: #eee;
+			}
+		}
+		
+		#dynamic #topbar {
+			background: #181818;
+		}
+	
+		#dynamic #main-nav a {
+			color: #bbcff0;
+		}
+		
+		#dynamic #main-nav li a:hover {
+			background: #3086d7;
+			color: #eee;
+		}
+		
+		#dynamic #main-logo {
+			color: #30dae9;
+		}
+	
+	</style>
+	
+</head>
+<body>
+<!--- Start of Topbar --->
+	<header id="header">
+		<div id="topbar">
+			
+			<label for="mobile-checkbox" id="mobile-icon">
+				<div class="burger-bar"></div>
+				<div class="burger-bar"></div>
+				<div class="burger-bar"></div>
+			</label>
+			<input type="checkbox" id="mobile-checkbox" />
+			
+			<input type="checkbox" id="checked-support" checked="checked" />
+			
+			<div id="main-logo"><h1>ZAFFRI</h1></div>
+			
+			<nav id="main-nav">
+				<ul>
+					<li class="mobile-li"><a href="#">home</a></li
+					><li class="mobile-li" ><a href="#">info</a></li
+					><li class="mobile-li"><a href="#">folio</a></li
+					><li class="mobile-li"><a href="#">contact</a></li>
+				</ul>
+			</nav>
+			
+			<div class="clear"></div>
+		</div>
+	</header>
+<!--- End of Topbar --->
+
+<!--- Start full page 1 --->
+	<section class="full-background vh-area" style="height: 100vh; background: #efefef;">
+	
+		<h1 class="vh-content text-center">Center Test</h1>
+	
+	</section>
+<!--- End full Page 1 --->
+
+<!--- Start full page 2 --->
+	<section class="full-background vh-area" style="height: 100vh; background: #ccc;">
+	
+		<div class="vh-content text-center">
+			<h1 class="element-center">Another Test</h1>
+			<p>Some text here.</p>
+		</div>
+	
+	</section>
+<!--- End full page 2 --->
+
+<!--- Start cells 3 --->
+	<section class="full-background" style="min-height: 100vh; background: #efefef;padding:75px 0 75px 0;">
+	
+		<div class="container-mid">
+			
+			<div class="small-cell-12 medium-cell-12 large-cell-12 cell" id="top-cell">Cell</div>
+			
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			
+			<div class="clear"></div>
+		</div>
+	
+	</section>
+<!--- End cells 3 --->
+	
+	<script src="js/topbar.min.js"></script>
+	<script>topBar();</script>
+</body>
+</html>
