@@ -1,14 +1,14 @@
 # Jolt 1.0
-Front-end web development framework: HTML5 &amp; CSS3 by <a href="http://www.zaffri.com">Zaffri</a>.
+Front-end web development framework: HTML5 &amp; CSS3 by <a href="http://www.zaffri.com"><em>Zaffri</em></a>.
 
-<b>Documentation:</b>
+<p><b>Documentation:</b></p>
 http://jolt.zaffri.com
 
-Live examples:
-http://jolt.zaffri.com
+<p>Live examples:</p>
+http://jolt.zaffri.com <br />
 http://zaffri.com
 
-Notable Features:
+<i>Notable Features:</i>
 <ul>
   <li>1.  Responsive cells</li>
   <li>2.  Full-page classes</li>
@@ -20,3 +20,5 @@ Notable Features:
       <li>4.3   JavaScript fallback for mobile toggle</li>
     </ul>
 </ul>
+
+<p>I will be adding more functionality/fixing bugs throughout the year, let me know if you have any suggestions or constructive critism. Thanks!</p>
