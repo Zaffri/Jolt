@@ -1,7 +1,7 @@
 # Jolt-1.0
 Front-end web development framework: HTML5 &amp; CSS3
 
-Documentation:
+<b>Documentation:</b>
 http://jolt.zaffri.com
 
 Live examples:
