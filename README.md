@@ -1,5 +1,5 @@
-# Jolt-1.0
-Front-end web development framework: HTML5 &amp; CSS3
+# Jolt 1.0
+Front-end web development framework: HTML5 &amp; CSS3 by <a href="http://www.zaffri.com">Zaffri</a>.
 
 <b>Documentation:</b>
 http://jolt.zaffri.com
