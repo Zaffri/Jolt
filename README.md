@@ -1,4 +1,4 @@
-# Jolt 1.0
+# Jolt
 Front-end web development framework: HTML5 &amp; CSS3 by <a href="http://www.zaffri.com"><em>Zaffri</em></a>.
 
 <p><b>Documentation:</b></p>
@@ -21,4 +21,17 @@ http://zaffri.com
     </ul>
 </ul>
 
-<p>I will be adding more functionality/fixing bugs throughout the year, let me know if you have any suggestions or constructive critism. Thanks!</p>
+<p><b>Demos:</b></p>
+	<ul>
+		<li>1.  "demo-basic.html" - Basic demo of vertical/horizontal alignment and Topbar component.</li>
+		<li>2.  <i>More to come...</i></li>
+	</ul>
+
+<p><b>Templates:</b></p>
+	<ul>
+		<li>1.  "starter-template-1.html" - Basic structure for Jolt site with single level navigation using Topbar component <i>(Markup only)</i>.</li>
+		<li>2.  "starter-template-2.html" - Basic structure for Jolt site with dropdowns using Topbar component <i>(Markup only)</i>.</li>
+	</ul>
+
+<p>I will be adding more functionality/fixing bugs as time goes on, let me know if you have any suggestions or constructive critism. Thanks!</p>
+<p>Steven.</p>

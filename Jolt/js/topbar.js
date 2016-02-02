@@ -1,3 +1,13 @@
+/* --------------------------------------------------------
+	Jolt Topbar JavaScript File
+
+	Version: 	1.0.1
+	Author: 		Steven Morrison
+
+	Website:	jolt.zaffri.com
+	GitHub:		github.com/Zaffri
+-------------------------------------------------------- */
+
 /* ---------------------------  [JavaScript burger nav fallback click] --------------------------- */
 var toggle = document.querySelector("input:checked");
 

@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
 	Jolt Global CSS File
 
-	Version: 	1.0
+	Version: 	1.0.1
 	Author: 		Steven Morrison
 
 	Website:	jolt.zaffri.com
@@ -26,31 +26,19 @@
 		padding: 0;
 	}
 
-/* Larger screen fonts */
-	@media (min-width: 1000px) {
-		body {
-			font-family: 'Oxygen', Helvetica, Arial, sans-serif;
-			font-weight: 300;
-		}
-	}
-
-/* Smaller screen fonts (roboto - android, iOS - helvetica/h'nue, windows - arial)*/
-	@media (max-width: 999px) {
-		body {
-			font-family: Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif;
-		}
-	}
-	
 /* Global body properties */
 	body {
 		font-size: 16px;
 		color: #2f2f2f;
 		background: #fcfcfc;
+		font-family: 'Oxygen', Roboto, Helvetica, "Helvetica Neue", Arial, sans-serif; /* Font media query styles placed here 1.1 */
+		font-weight: 300;
 	}
 
 /* Anchor links */
 	a {
 		text-decoration: none;
+		color: #0caad7;
 	}
 
 /* Images */
