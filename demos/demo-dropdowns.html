@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Z-Nav ~ Responsive Nav by Zaffri</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link rel="stylesheet" type="text/css" href="css/global.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/topbar.min.css" />
+	
+	<!-- Custom styles - embedded and inline styles only for demo purposes -->
+	<style type="text/css">
+	
+		@media screen and (max-width: 950px) {
+			#topbar #main-nav ul {
+				width: 50%;
+			}
+		}
+	
+		#topbar #main-nav ul ul li a {
+			background: #181818;
+			color: #ccc;
+		}
+		
+		#top-cell {
+			background: #bbb;
+		}
+	
+		.cell {
+			height: 300px;
+			background: #ddd;
+			padding: 10px;
+		}
+		
+		.cell:nth-child(2n) {
+			background: #ccc;
+		}
+		
+		#main-nav a {
+			color: #0f1427;
+		}
+		
+		#main-nav a:hover, #topbar #main-nav ul ul li a:hover {
+			background: #3086d7;
+			color: #fff;
+		}
+		
+		@media screen and (max-width: 950px) {
+		
+			#topbar #main-nav ul {
+				background: #181818;
+			}
+			#main-nav a {
+				color: #bbcff0;
+			}
+			#main-nav li a:hover {
+				background: #3086d7;
+				color: #eee;
+			}
+		}
+		
+		#dynamic #topbar {
+			background: #181818;
+		}
+	
+		#dynamic #main-nav a {
+			color: #bbcff0;
+		}
+		
+		#dynamic #main-nav li a:hover {
+			background: #3086d7;
+			color: #eee;
+		}
+		
+		#dynamic #main-logo {
+			color: #30dae9;
+		}
+	
+	</style>
+	
+</head>
+<body>
+<!--- Start of Topbar --->
+	<header id="header">
+		<div id="topbar">
+			
+			<label for="mobile-checkbox" id="mobile-icon">
+				<div class="burger-bar"></div>
+				<div class="burger-bar"></div>
+				<div class="burger-bar"></div>
+			</label>
+			<input type="checkbox" id="mobile-checkbox" />
+			
+			<input type="checkbox" id="checked-support" checked="checked" />
+			
+			<div id="main-logo"><h1>ZAFFRI</h1></div>
+			
+			<nav id="main-nav">
+				<ul>
+					<li class="mobile-li"><a href="#">home</a></li
+					><li class="mobile-li" ><a href="#">info</a>
+						<ul>
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Our team</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</li
+					><li class="mobile-li"><a href="#">folio</a>
+						<ul>
+							<li><a href="#">Design</a></li>
+							<li><a href="#">Software Development</a></li>
+						</ul>
+					</li
+					><li class="mobile-li"><a href="#">contact</a></li>
+				</ul>
+			</nav>
+			
+			<div class="clear"></div>
+		</div>
+	</header>
+<!--- End of Topbar --->
+
+	<section class="full-background vh-area" style="height: 100vh; background: #efefef;">
+	
+		<h1 class="vh-content text-center">Test</h1>
+	
+	</section>
+	
+	<section class="full-background vh-area" style="height: 100vh; background: #fefefe;">
+	
+		<div class="vh-content text-center">
+			<h1 style="background: #ccc; width: 200px;height: 200px;" class="element-center">Test 2</h1>
+		</div>
+	
+	</section>
+	
+	<section class="full-background vh-area" style="height: 100vh; background: #efefef;">
+	
+		<div class="container-mid">
+			
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			<div class="small-cell-6 medium-cell-6 large-cell-4 cell">Cell</div>
+			
+		</div>
+	
+	</section>
+	
+	<script src="js/topbar.min.js"></script>
+	<script>topBar();</script>
+</body>
+</html>
