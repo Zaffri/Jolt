@@ -1,8 +1,8 @@
 /* --------------------------------------------------------
 	Jolt Topbar JavaScript File
 
-	Version: 	1.0.1
-	Author: 		Steven Morrison
+	Version: 	1.1.0
+	Author: 	Steven Morrison
 
 	Website:	jolt.zaffri.com
 	GitHub:		github.com/Zaffri
@@ -54,3 +54,17 @@ function topBar() {
 		distLast = dist;	
 	};
 };
+/* ---------------------------  [JavaScript burger nav collapse on click] --------------------------- */
+// Mobile link elements
+var mobileLinks = document.querySelectorAll('.mobile-li a');
+var mobileLinksNum = mobileLinks.length;
+
+// Loop through each mobil link and add event handler
+for(var x=0; x<mobileLinksNum; x++) {
+
+	mobileLinks[x].onclick = function () {
+		// Uncheck checkbox
+		document.getElementById('mobile-checkbox').checked = false;
+	};
+
+}

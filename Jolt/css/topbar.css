@@ -1,8 +1,8 @@
 /* --------------------------------------------------------
 	Jolt Topbar CSS File
 
-	Version: 	1.0.1
-	Author: 		Steven Morrison
+	Version: 	1.1.0
+	Author: 	Steven Morrison
 
 	Website:	jolt.zaffri.com
 	GitHub:		github.com/Zaffri
@@ -18,17 +18,13 @@
 
 #main-nav {
 	float: right;
-	width: 75%;
-}
-
-#main-nav ul {
-	width: 100%;
+	width: auto;
+	padding-right: 95px;
 }
 
 #main-nav ul li {
 	list-style: none;
 	display: inline-block;
-	width: 25%; /* Depending on number of links - 4 links = (100%/4) = 25 */
 	text-align: center;
 	position: relative;
 }
@@ -51,7 +47,7 @@ html body #main-nav ul ul li {
 
 #main-nav a {
 	width: 100%;
-	padding: 20px 0 20px 0;
+	padding: 20px;
 	display: inline-block;
 }
 
@@ -82,7 +78,6 @@ html body #main-nav ul ul li {
 
 #main-logo {
 	float: left;
-	width: 25%;
 	padding-left: 5%;
 	height: 100%;
 }
@@ -103,6 +98,7 @@ html body #main-nav ul ul li {
 		float: none;
 		margin-top: 50px;
 		width: 100%;
+		padding-right: 0px;
 	}
 	#main-nav ul {
 		width: 100%;

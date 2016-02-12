@@ -1,0 +1,24 @@
+
+---- Jolt 1.1.0 ----
+
+    Update: #main-nav and logo area now have a width of auto by default, instead of percentage based.
+    Update: Mobile nav collapses/closes on link click.
+    Update: Updated demo templates with new burger styles.
+
+--------------------
+
+
+
+---- Jolt 1.0.1 ----
+
+    Patch: Global default font (oxygen) was not working on smalle devices.
+
+--------------------
+
+
+
+---- Jolt 1.0.0 ----
+
+    First Release.
+
+--------------------
