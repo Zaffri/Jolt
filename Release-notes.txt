@@ -1,4 +1,13 @@
 
+---- Jolt 1.2.0 ----
+
+    Update: Sidebar componenet created - topbar alternative menu.
+    Update: Sidebar mobile toggle animation.
+    Update: Sidebar demo added.
+
+--------------------
+
+
 ---- Jolt 1.1.0 ----
 
     Update: #main-nav and logo area now have a width of auto by default, instead of percentage based.
@@ -11,7 +20,7 @@
 
 ---- Jolt 1.0.1 ----
 
-    Patch: Global default font (oxygen) was not working on smalle devices.
+    Patch: Global default font (oxygen) was not working on smaller devices.
 
 --------------------
 
