@@ -1,4 +1,11 @@
 
+---- Jolt 1.2.1 ----
+
+    Fix: Sidebar now fixed position when body > viewport height.
+
+--------------------
+
+
 ---- Jolt 1.2.0 ----
 
     Update: Sidebar componenet created - topbar alternative menu.
