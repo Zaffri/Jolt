@@ -1,7 +1,7 @@
 /* --------------------------------------------------------
-    Jolt Topbar CSS File
+    Jolt Sidebar CSS File
 
-    Version:    1.2.1
+    Version:    1.2.2
     Author:     Steven Morrison
 
     Website:    jolt.zaffri.com
@@ -36,8 +36,12 @@
     color: #fff;
 }
 
-#side-bar {
-    float: left;
+/* Mobile max WIDTH - sidebar 100% */
+@media (max-width: 375px) {
+    body #side-bar {
+        width: 100%;
+        left: -375px
+    }
 }
 
 #side-body {
@@ -54,6 +58,7 @@
     color: #a3a8a9;
     height: 100vh;
     padding-top: 100px;
+    z-index: 9999;
 }
 
 #side-bar h4 {

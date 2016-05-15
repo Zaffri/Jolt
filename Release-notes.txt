@@ -1,4 +1,11 @@
 
+---- Jolt 1.2.2 ----
+
+    Update: Sidebar full width on small mobiles
+    Update: Sidebar collapse event handler class (on link click)
+    Fix: Sidebar Z-index added
+
+
 ---- Jolt 1.2.1 ----
 
     Fix: Sidebar now fixed position when body > viewport height.
