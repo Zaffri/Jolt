@@ -75,7 +75,7 @@
         transition: left 1s ease-in;
     }
     body #mobile-icon {
-        z-index: 9999;
+        z-index: 10000;
         left: 10px;
     }
     #side-body {
