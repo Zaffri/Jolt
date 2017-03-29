@@ -15,10 +15,12 @@ if(document.querySelector(".on-nav-collapse")) {
     var nav = document.querySelector(".on-nav-collapse");
     // Add event listener
     nav.addEventListener("click", function(e) {
-
-        // Uncheck mobile check box
-        document.getElementById("mobile-checkbox").checked = false;
-        e.stopPropagation();
-
+        
+        // Check if ID exists - SPA fix
+        if(document.getElementById("mobile-checkbox")) {
+            // Uncheck mobile check box
+            document.getElementById("mobile-checkbox").checked = false;
+            e.stopPropagation();
+        }
     }, false);
 }
